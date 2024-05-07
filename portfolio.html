@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Paolo Damen</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header showBg">
+      <div class="container--inverse">
+        <div class="header__content">
+          <!-- logo -->
+          <div class="logo">
+            <a href="#"><span>paolo</span> damen</a>
+          </div>
+
+          <!-- toggle menu -->
+          <div class="toggle-menu"></div>
+
+          <!--nav menu-->
+          <nav class="nav">
+            <div class="menu">
+              <li><a class="nav__link home" href="#home">home</a></li>
+              <li><a class="nav__link work current" href="#work">work</a></li>
+              <li><a class="nav__link skill" href="#skill">skills</a></li>
+              <li><a class="nav__link skill" href="#language">languages</a></li>
+              <li><a class="nav__link about" href="#about">about</a></li>
+              <li><a class="btn cta hire" href="#hire">hire me</a></li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <!-- <div class="container"> -->
+      <div class="hero__content container">
+        <!-- hero indicators -->
+        <nav class="hero__indicators">
+          <a href="#home" class="dot home">
+            <span class="dot-text">Home</span>
+          </a>
+          <a href="#work" class="dot work selected">
+            <span class="dot-text">Work</span>
+          </a>
+          <a href="#skill" class="dot skill">
+            <span class="dot-text">Skills</span>
+          </a>
+          <a href="#language" class="dot language">
+            <span class="dot-text">Languages</span>
+          </a>
+          <a href="#about" class="dot about">
+            <span class="dot-text">About</span>
+          </a>
+          <a href="#hire" class="dot hire">
+            <span class="dot-text">Hire</span>
+          </a>
+        </nav>
+
+        <div class="d-grid container--inverse">
+          <!-- hero text -->
+          <div class="hero__text">
+            <h1>building & designing unique&nbsp;web&nbsp;experiences</h1>
+            <a href="#work" class="btn pry-btn">see my work</a>
+          </div>
+          <!-- hero illustration -->
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION -->
+    <section id="work" class="work-section">
+      <div class="container--inverse">
+        <div class="title">
+          <h2>my work</h2>
+          <p>Checkout a few of my projects!</p>
+        </div>
+
+        <!-- Mormedi-->
+        <div class="card card--inverse">
+          <div class="info">
+            <h4>Mormedi</h4>
+            <p>Dashboard for Design Agency Mormedi</p>
+
+            <div class="language">
+              <div>
+                <i class="fa-brands fa-sass"></i>
+                <li>html</li>
+              </div>
+
+              <div>
+                <li>css</li>
+              </div>
+
+              <div>
+                <li>javascript</li>
+              </div>
+
+              <div>
+                <i class="devicon-typescript-plain"></i>
+                <li>react</li>
+              </div>
+            </div>
+            <div class="buttons">
+              <a target="_blank" href="#" class="btn btn-eye">
+                <i class="fa-solid fa-eye"></i>
+                <span>live</span>
+              </a>
+
+              <a target="_blank" href="#" class="btn btn-git">
+                <i class="fa-brands fa-github"></i>
+                <span>source</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card__img">
+            <div>
+              <img
+                src="./img/more.webp"
+                alt=""
+                style="transform: translateY(0px)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Selva Urbana -->
+        <div class="card">
+          <!-- Image -->
+          <div class="card__img">
+            <div>
+              <img style="transform: translateY(0px)" />
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="info">
+            <h4>Selva Urbana</h4>
+            <p>
+              Online Plant Store Selva Urbana brings the green marvel of living
+              plants to your urban dwelling.
+            </p>
+
+            <div class="language">
+              <div>
+                <i class="fa-brands fa-react"></i>
+                <li>react</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-sass"></i>
+                <li>sass</li>
+              </div>
+              <div>
+                <i class="devicon-express-original"></i>
+                <li>express</li>
+              </div>
+
+              <div>
+                <i class="devicon-mongodb-plain"></i>
+                <li>mongodb</li>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://selva-urbana-paolo.vercel.app/"
+                class="btn btn-eye"
+              >
+                <i class="fa-solid fa-eye"></i>
+                <span>live</span>
+              </a>
+
+              <a
+                target="_blank"
+                href="https://github.com/paolo-mad/selva-urbana"
+                class="btn btn-git"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span>source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explore More -->
+        <div class="card card--inverse">
+          <div class="info">
+            <h4>Explore More</h4>
+            <p>Daytrips for adventurers</p>
+
+            <div class="language">
+              <div>
+                <i class="fa-brands fa-react"></i>
+                <li>react</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-sass"></i>
+                <li>sass</li>
+              </div>
+
+              <div>
+                <li>sanity cms</li>
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://furniq.netlify.app/"
+                class="btn btn-eye"
+              >
+                <i class="fa-solid fa-eye"></i>
+                <span>live</span>
+              </a>
+
+              <a
+                target="_blank"
+                href="https://github.com/dev-lawrence/furniq-website"
+                class="btn btn-git"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span>source</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card__img">
+            <div>
+              <img
+                src="./imgs/furniq-website.webp"
+                alt=""
+                style="transform: translateY(0px)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- StarWarsRoulette -->
+        <div class="card">
+          <div class="card__img">
+            <div>
+              <img src="./imgs/pixar.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="info">
+            <h4>StarWars Roulette</h4>
+            <p>A fun little game in space.</p>
+            <div class="language">
+              <div>
+                <i class="fa-brands fa-react"></i>
+                <li>react</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-sass"></i>
+                <li>sass</li>
+              </div>
+
+              <div>
+                <i class="devicon-typescript-plain"></i>
+                <li>typescript</li>
+              </div>
+            </div>
+            <div class="buttons">
+              <a target="_blank" href="#" class="btn btn-eye">
+                <i class="fa-solid fa-eye"></i>
+                <span>live</span>
+              </a>
+
+              <a
+                target="_blank"
+                href="https://github.com/paolo-mad/starwars-roulette"
+                class="btn btn-git"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span>source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Listo -->
+        <div class="card card--inverse">
+          <div class="info">
+            <h4>Listo</h4>
+            <p>The simple but effecitve ToDolist.</p>
+            <div class="language">
+              <div>
+                <i class="fa-brands fa-html5"></i>
+                <li>html</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-css3"></i>
+                <li>css</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-js"></i>
+                <li>javascript</li>
+              </div>
+              <div>
+                <i class="fa-brands fa-sass"></i>
+                <li>sass</li>
+              </div>
+            </div>
+            <div class="buttons">
+              <a target="_blank" href="#" class="btn btn-eye">
+                <i class="fa-solid fa-eye"></i>
+                <span>live</span>
+              </a>
+
+              <a
+                target="_blank"
+                href="https://github.com/paolo-mad/listo-todolist-app"
+                class="btn btn-git"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span>source</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card__img">
+            <div>
+              <img
+                src="./img/listo.png"
+                alt=""
+                style="transform: translateY(0px)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILL SECTION -->
+    <section id="skill" class="skill-section">
+      <div class="container--inverse">
+        <div class="title">
+          <h2>my skills</h2>
+          <p>Here are some technologies I've used!</p>
+        </div>
+
+        <div class="skills">
+          <div class="skills--card">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="html"
+                title="html"
+              />
+
+              <span>html</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="css"
+                title="css"
+              />
+
+              <span>css</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="javascript"
+                title="javascript"
+              />
+              <span>javascript</span>
+            </div>
+
+            <!-- <div class="skill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass" title="sass">
+              <span>sass</span>
+            </div> -->
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                alt="tailwind"
+                title="tailwind"
+              />
+              <span>tailwind</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="react"
+                title="react"
+              />
+              <span>react</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="typescript"
+                title="typescript"
+              />
+
+              <span>typescript</span>
+            </div>
+
+            <!-- <div class="skill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php" title="php">
+
+              <span>php</span>
+            </div> -->
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt="mysql"
+                title="postgresql"
+              />
+
+              <span>mysql</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                alt="figma"
+                title="figma"
+              />
+
+              <span>figma</span>
+            </div>
+
+            <div class="skill">
+              <img
+                class="nodejs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="nodejs"
+                title="nodejs"
+              />
+
+              <span>nodejs</span>
+            </div>
+
+            <div class="skill">
+              <img
+                class="express"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                alt="express"
+                title="express"
+              />
+
+              <span>express</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+                alt="mongodb"
+                title="mongodb"
+              />
+
+              <span>mongodb</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--LANGUAGE SECTION -->
+    <section id="language" class="language-section">
+      <div class="container--inverse">
+        <div class="title">
+          <h2>my languages</h2>
+          <p>
+            Here are the five language I am comforable communicating and working
+            in!
+          </p>
+        </div>
+
+        <div class="skill-section">
+          <div class="skills--card">
+            <div class="skill">
+              <img
+                src="./img/flags/kingdom_united.png"
+                alt="english flag"
+                title="english"
+              />
+              <span>English</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="./img/flags/netherlands.png"
+                alt="dutch flag"
+                title="dutch"
+              />
+              <span>Dutch</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="./img/flags/spain.png"
+                alt="spanish flag"
+                title="spanish"
+              />
+              <span>Spanish</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="./img/flags/germany.png"
+                alt="german flag"
+                title="german"
+              />
+              <span>German</span>
+            </div>
+
+            <div class="skill">
+              <img
+                src="./img/flags/france.png"
+                alt="french flag"
+                title="french"
+              />
+              <span>French</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <div class="container--inverse">
+        <div class="title">
+          <h2>about me</h2>
+        </div>
+
+        <div class="d-grid">
+          <div class="img-bg">
+            <img loading="lazy" src="./img/paolo.jpg" alt="" />
+          </div>
+
+          <div class="text">
+            <p>
+              Hello! My name is Paolo, and I am a frontend developer and web
+              designer.
+            </p>
+            <p>
+              I took the initiative to teach myself coding so that I could
+              acquire the knowledge and skills necessary to transform my ideas
+              into reality.
+            </p>
+            <p>
+              Throughout this journey, I have gained expertise in designing and
+              developing visually appealing and functional websites. I'm
+              dedicated to crafting websites that not only look good but also
+              work seamlessly to provide the best user experience.
+            </p>
+
+            <p>Additionally, I have a passion for photography.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--HIRE SECTION  -->
+    <section id="hire" class="hire-section">
+      <div class="container--inverse">
+        <div class="title">
+          <h2>hire me</h2>
+          <p>
+            I would like to make your ideas come to live. Feel free to contact
+            me at anytime
+          </p>
+        </div>
+        <div class="d-grid">
+          <!-- form -->
+          <form class="form" method="post" name="contact">
+            <input type="hidden" name="form-name" value="contact" />
+            <div hidden="">
+              <input name="bot-field" />
+            </div>
+
+            <div class="input-control">
+              <label for="name">name</label><br />
+              <input name="name" id="name" type="text" />
+            </div>
+
+            <div class="input-control">
+              <label for="email">email</label><br />
+              <input name="email" id="email" type="email" required="" />
+            </div>
+
+            <div class="input-control">
+              <label for="message">message</label><br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <button class="btn btn-form" type="submit">send message</button>
+          </form>
+
+          <!-- other info -->
+          <div class="other-info">
+            <div class="d-flex">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel: +34 ">653 548 375</a>
+            </div>
+
+            <div class="d-flex mail">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:paolodamen@gmail.com">paolodamen@gmail.com</a>
+            </div>
+
+            <div class="social-links">
+              <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+              <a target="_blank" href="#"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <p>Copyright ©2024 All rights reserved | Paolo Damen</p>
+    </footer>
+  </body>
+</html>
