@@ -38,11 +38,6 @@ navLinks.forEach((link) => {
   });
 });
 
-// delete this line
-const hey = 'just testing out some stuff';
-
-const test = 'another test';
-
 // update the links
 const scrollUpdate = () => {
   sections.forEach((section) => {
